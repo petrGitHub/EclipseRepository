@@ -91,6 +91,7 @@ class Faktorizer {
 		try {			
 //			zpracujVstup(args[0]);
 			zpracujVstup("vstup.txt");
+			System.out.println("Konec programu.");
 		} catch (IOException ex) {
 			Logger.getLogger(Faktorizer.class.getName()).log(Level.SEVERE, null, ex);
 		}
